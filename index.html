@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>彈跳球</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Klee One', cursive;
+        }
+        body {
+            background-color: #fffbf3;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        #myCanvas {
+            background-color: #A8DCD9 ;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="myCanvas" width="1000px" height="600px"></canvas>
+    <script src="./app.js"></script>
+    <p id="hint">（使用滑鼠控制木板）</p>
+</body>
+</html>
