@@ -54,7 +54,7 @@ for (let i = 0; i < 10; i++) {
 }
 
 c.addEventListener("mousemove", (e) => {
-  console.log(e)
+  // console.log(e.offsetX)
   ground_x = e.offsetX - 100;
 });
 
